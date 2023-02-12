@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="nav-topBar" style="position: static">
+      <a href="./index.html"> COVID 19</a>
+      <div class="menu" id="togglebutton">
+        <div class="menu--list"></div>
+        <div class="menu--list"></div>
+        <div class="menu--list"></div>
+      </div>
+      <div class="navs" id="navs">
+        <a href="./about.html"> About us</a>
+        <a href="./service.html">Service</a>
+        <a href="./gallery.html">Gallery</a>
+        <div class="dropdown">
+          <a class="dropbtn">User</a>
+          <div class="dropdown-content">
+            <a href="./join.html">Patient</a>
+            <a href="./join.html">Doctor</a>
+            <a href="./join.html">Vistor</a>
+          </div>
+        </div>
+        <a href="contact.html">Contact Us</a>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="search" />
+        <img
+          id="searchicon"
+          src="pngtree-vector-search-icon-png-image_4139928.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <div class="contactNow--container" style="margin-top: 0">
+      <h1>+91 6361421365</h1>
+      <p>If you want Best Service Call us now</p>
+      <button>Contact Now</button>
+    </div>
+
+    <div class="contactUs--container">
+      <h1>Contact Us</h1>
+      <div class="form">
+        <form action="#" onsubmit="required()">
+          <label for="Your Name">Your Name</label>
+          <input
+            id="Your Name"
+            type="text"
+            placeholder="Enter your name"
+            required
+          /><br />
+          <label for="email">Email</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Enter your mail"
+            required
+          /><br />
+          <label for="Mobile Number">Mobile Number</label>
+          <input type="number" placeholder="Enter your  contact Number" /><br />
+          <label for="country">Country</label>
+          <input type="text" placeholder="Enter your Country Name" /><br />
+          <label for="Query">Query</label>
+          <textarea placeholder="Write Something...."></textarea><br />
+          <button>Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
